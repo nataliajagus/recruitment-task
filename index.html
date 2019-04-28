@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Recruitment task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <form class="form" autocomplete="off">
+            <label class="form__label" for="city_input">Country name</label>
+            <input class="form__input" type="text" name="city" id="city_input" list="cities"/>
+            <datalist id="cities">
+                <option>Poland</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option>Spain</option>
+            </datalist>
+            <button type="submit" class="form__button">Show most polluted cities</button>
+        </form>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
